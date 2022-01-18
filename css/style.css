@@ -24,7 +24,7 @@ body{
 .header__top{
     display: flex;
     justify-content: space-between;
-    padding-top: 27px;
+    padding-top: 20px;
 }
 .logo{
     margin-left: 16px;
@@ -57,9 +57,13 @@ body{
 .header__content{
     background-image: url("../images/header-bng.png");
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
+    padding-bottom: 20px;
+    margin-top: -100px;
+    min-height: calc(100vh - 50px);
 }
+
 .title{
     font-family: 'Roboto Slab', serif;
     font-weight: 700;
@@ -67,9 +71,9 @@ body{
     line-height: 95px;
     color: #001e64;
     max-width: 589px;
-    padding-top: 200px;
+    padding-top: 170px;
     padding-left: 112px;
-    margin-bottom: 130px;
+    margin-bottom: 60px;
 }
 
 .header-slider{
@@ -146,6 +150,33 @@ body{
     margin-left: 122px;
     display: inline-block;
     transform: translateY(-100px);
+    position: absolute;
+}
+
+.header__content-box{
+    display: flex;
+    margin-left: 100%;
+    margin-right: 30px;
+    font-size: 18px;
+    line-height: 21px;
+    color: #fff;
+}
+.header__content-link--active{
+    font-weight: 700;
+}
+
+.product{
+    padding-top: 100px;
+}
+.product__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.product__name{
+
+}
+.product__content{
+    width: 600px;
 }
 
 
